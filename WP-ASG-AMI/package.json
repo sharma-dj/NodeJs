@@ -1,0 +1,17 @@
+{
+  "name": "WP-ASG-AMI",
+  "version": "1.0.0",
+  "description": "This is a lambda function for updating Auto Scaling Group",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip  *.log"
+  },
+  "author": "DJ",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.3",
+    "dotenv": "^8.2.0",
+    "moment-timezone": "^0.5.27",
+    "underscore": "^1.9.2"
+  }
+}
