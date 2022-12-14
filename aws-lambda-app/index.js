@@ -6,7 +6,7 @@ const moment = require('moment-timezone');
 const AWSRegionName = 'us-east-1';
 const AWSSESRegionName = 'us-east-1';
 
-const credentials = new AWS.SharedIniFileCredentials({profile: 'TKS'});
+const credentials = new AWS.SharedIniFileCredentials({profile: 'DjS'});
 AWS.config.credentials = credentials;
 AWS.config.update({region: AWSRegionName});
 AWS.config.getCredentials(function(err) {
